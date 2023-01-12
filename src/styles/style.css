@@ -1,0 +1,52 @@
+body {
+    background-color:rgba(0,196,204,255)
+}
+
+.jumbotron {
+    background-image:  url(https://user-images.githubusercontent.com/99820483/209481906-2cabbb9b-2e6e-4482-8677-b3ea9595a7dc.png);
+}
+
+.jumbotron h1,
+.jumbotron p {
+    color: rgb(186, 150, 150);
+    text-align: center;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    font-weight: bold;
+}
+
+main {
+    min-height: 325px;
+}
+
+movie-list div.col-md.my-3 {
+    max-width: 350px;
+}
+
+.card {
+    overflow: hidden;
+}
+
+movie-card img {
+    transition: .5s;
+}
+
+movie-card img:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+  }
+  
+  footer h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #1c1919;
+      font-size: large;
+  }
